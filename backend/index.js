@@ -10,7 +10,6 @@ import userRouter from './routes/userRouter.js'
 import mainPageRoute from './routes/mainPage.js'
 const app = express();
 const PORT = 3000;
-console.log('ahoj');
 
 dotenv.config();
 app.use(cors({
