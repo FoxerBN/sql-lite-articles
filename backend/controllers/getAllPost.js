@@ -11,4 +11,4 @@ export const getAllPosts = async (req, res) => {
     res.json({ message: `There are ${posts.length} posts.`, posts });
   } catch (error) {}
 };
-// i added comment
+// i added comment// i added comment
